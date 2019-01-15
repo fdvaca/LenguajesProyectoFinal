@@ -71,18 +71,21 @@ public class TwitterGEO {
             fileWriter.append(NEW_LINE_SEPARATOR);
 
             for (Status st : statuses) {
-                fileWriter.append(String.valueOf(st.getId()));
-                fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(String.valueOf(st.getDisplayTextRangeEnd()));
-                fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(String.valueOf(st.getCreatedAt()));
-                fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(st.getText());
-                fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(String.valueOf(st.getRetweetCount()));
-                fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(String.valueOf(st.getFavoriteCount()));
-                fileWriter.append(NEW_LINE_SEPARATOR);
+                if (st.getText().startsWith("#SISMO")) {
+
+                    fileWriter.append(String.valueOf(st.getId()));
+                    fileWriter.append(COMMA_DELIMITER);
+                    fileWriter.append(String.valueOf(st.getDisplayTextRangeEnd()));
+                    fileWriter.append(COMMA_DELIMITER);
+                    fileWriter.append(String.valueOf(st.getCreatedAt()));
+                    fileWriter.append(COMMA_DELIMITER);
+                    fileWriter.append(st.getText());
+                    fileWriter.append(COMMA_DELIMITER);
+                    fileWriter.append(String.valueOf(st.getRetweetCount()));
+                    fileWriter.append(COMMA_DELIMITER);
+                    fileWriter.append(String.valueOf(st.getFavoriteCount()));
+                    fileWriter.append(NEW_LINE_SEPARATOR);
+                }
             }
             System.out.println("csv created!!!");
 
