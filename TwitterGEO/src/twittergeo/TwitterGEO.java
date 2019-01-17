@@ -31,9 +31,9 @@ public class TwitterGEO {
     }
 
     private static void setUpTwitter() {
-        final String COMMA_DELIMITER = ",";
+        final String DELIMITER = "|";
         final String NEW_LINE_SEPARATOR = "\n";
-        final String FILE_HEADER = "id,url,fecha,contenido,cantidadRT,cantidadFAV,";
+        final String FILE_HEADER = "fecha|contenido";
 
         int pageno = 1;
         String user = "@IGecuador";
@@ -69,22 +69,16 @@ public class TwitterGEO {
             fileWriter = new FileWriter("tweetsIG.csv");
             fileWriter.append(FILE_HEADER);
             fileWriter.append(NEW_LINE_SEPARATOR);
-
             for (Status st : statuses) {
-                fileWriter.append(String.valueOf(st.getId()));
-                fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(String.valueOf(st.getDisplayTextRangeEnd()));
-                fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(String.valueOf(st.getCreatedAt()));
-                fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(st.getText());
-                fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(String.valueOf(st.getRetweetCount()));
-                fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(String.valueOf(st.getFavoriteCount()));
-                fileWriter.append(NEW_LINE_SEPARATOR);
+                String cont = st.getText();
+                if (cont.startsWith("#SISMO ID")) {
+                    fileWriter.append(st.getCreatedAt().toString());
+                    fileWriter.append(DELIMITER);
+                    fileWriter.append(cont);
+                    fileWriter.append(NEW_LINE_SEPARATOR);
+                }
             }
-            System.out.println("csv created!!!");
+            System.out.println("file created!!!");
 
         } catch (IOException e) {
             System.out.println("Error creating csv !!!");
@@ -92,7 +86,7 @@ public class TwitterGEO {
             try {
                 fileWriter.close();
             } catch (IOException e) {
-                System.out.println("Error while closing fileWriter !!!");
+                System.out.println("Error while closing file !!!");
             }
         }
     }
