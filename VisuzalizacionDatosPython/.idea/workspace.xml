@@ -11,11 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="vizualizacion.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vizualizacion.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vizualizacion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="230" column="16" lean-forward="true" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
+            <state relative-caret-position="1152">
+              <caret line="178" column="34" selection-start-line="178" selection-start-column="34" selection-end-line="178" selection-end-column="34" />
               <folding>
                 <element signature="e#0#77#0" expanded="true" />
               </folding>
@@ -23,32 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PaginaWeb/script.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="50" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filtrado.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filtrado.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3961">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="102">
+              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -65,6 +44,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>30</find>
+      <find>magnitud de sis</find>
+      <find>profunda</find>
+      <find>Magnitud de sis</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -73,16 +55,17 @@
         <option value="$PROJECT_DIR$/sismos.csv" />
         <option value="$PROJECT_DIR$/dsad.py" />
         <option value="$PROJECT_DIR$/PaginaWeb/script.py" />
-        <option value="$PROJECT_DIR$/PaginaWeb/html/index.html" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/PaginaWeb/html/sismosprofundidad.html" />
         <option value="$PROJECT_DIR$/PaginaWeb/html/sismosmadrugada.html" />
-        <option value="$PROJECT_DIR$/PaginaWeb/html/sismosmaximo.html" />
         <option value="$PROJECT_DIR$/PaginaWeb/html/sismosmañana.html" />
         <option value="$PROJECT_DIR$/PaginaWeb/html/sismosnoche.html" />
         <option value="$PROJECT_DIR$/PaginaWeb/html/sismosregiones.html" />
         <option value="$PROJECT_DIR$/PaginaWeb/html/sismostarde.html" />
+        <option value="$PROJECT_DIR$/PaginaWeb/html/index.html" />
+        <option value="$PROJECT_DIR$/PaginaWeb/html/sismosmaximo.html" />
         <option value="$PROJECT_DIR$/vizualizacion.py" />
+        <option value="$PROJECT_DIR$/sismosprofundidad.html" />
+        <option value="$PROJECT_DIR$/PaginaWeb/html/sismosprofundidad.html" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -143,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.vizualizacion">
+  <component name="RunManager" selected="Python.main">
     <configuration name="dsad" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="VisuzalizacionDatosPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,8 +207,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.vizualizacion" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.vizualizacion" />
         <item itemvalue="Python.dsad" />
         <item itemvalue="Python.get-pip" />
       </list>
@@ -255,14 +238,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1592262" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32998326" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5022762" side_tool="true" weight="0.28308207" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49924126" weight="0.32495812" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49772382" visible="true" weight="0.28217822" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49772382" weight="0.28217822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3283082" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -357,13 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PaginaWeb/script.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -374,23 +349,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PaginaWeb/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1240">
-          <caret line="95" column="3" selection-start-line="95" selection-start-column="3" selection-end-line="95" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PaginaWeb/html/sismosmadrugada.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PaginaWeb/html/sismosmaximo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
           <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
         </state>
       </provider>
@@ -409,13 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PaginaWeb/html/sismosprofundidad.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PaginaWeb/html/sismostarde.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-355">
@@ -430,13 +384,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PaginaWeb/html/sismosmaximo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="64" column="2905347" selection-start-line="64" selection-start-column="2905347" selection-end-line="64" selection-end-column="2905347" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PaginaWeb/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vizualizacion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="230" column="16" lean-forward="true" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
+        <state relative-caret-position="1152">
+          <caret line="178" column="34" selection-start-line="178" selection-start-column="34" selection-end-line="178" selection-end-column="34" />
           <folding>
             <element signature="e#0#77#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PaginaWeb/html/sismosprofundidad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="127" column="7" lean-forward="true" selection-start-line="82" selection-start-column="8" selection-end-line="127" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PaginaWeb/html/sismosprofundidad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
